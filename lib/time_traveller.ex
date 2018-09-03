@@ -76,8 +76,8 @@ defmodule TimeTraveller do
 
   @doc """
   Returns the UTC representation of the beginning of the week for the given date
-  and timezone. The week_start is one of the The date is interpreted as being in
-  the timezone specified and the UTC datetime is returned.
+  and timezone. The date is interpreted as being in the timezone specified and
+  the UTC datetime is returned.
 
   The weekstart can between 1..7, an atom e.g. :mon, or a string e.g. “Monday”
 
