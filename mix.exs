@@ -27,7 +27,8 @@ defmodule TimeTraveller.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:timex, "~> 3.3"}
+      {:timex, "~> 3.3"},
+      {:ex_doc, "~> 0.18", only: :dev}
     ]
   end
 
