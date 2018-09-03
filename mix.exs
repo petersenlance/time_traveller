@@ -41,7 +41,8 @@ defmodule TimeTraveller.MixProject do
     [
       files: ["lib", "mix.exs", "README*"],
       maintainers: ["Lance Petersen"],
-      licenses: ["MIT"]
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/petersenlance/time_traveller"}
     ]
   end
 end
