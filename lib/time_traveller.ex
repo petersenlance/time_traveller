@@ -1,7 +1,7 @@
 defmodule TimeTraveller do
   @moduledoc """
-  Easily calculate the UTC representation of common local times. TimeTraveller allows you to
-  think in local time and get the UTC representation.
+  Easily calculate the UTC representation of common local times. A light wrapper around
+  Timex, TimeTraveller allows you to think in local time and get the UTC representation.
   """
 
   @doc """
